@@ -1,0 +1,38 @@
+<!DOCTYPE html lang="en-gb">
+<html>
+    <head>
+        <title>Search Cocktails</title>
+        <link rel="stylesheet" href="search.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1 id="title">Search For a Cocktail</h1>
+
+                <form>
+                    <input
+                        type="text"
+                        name="search-bar"
+                        id="search-bar"
+                        placeholder="Search...">
+                    <button id="search-button"><i class="fa fa-search"></i></button>
+                    <button id="random-button">Random</i></button>
+                </form>
+            </div>
+            <br><br>
+            <h2 id="drink-subtitle">Drink Results.</h2>
+            <h3 id="subtitle"></h3>
+            <div id="search-results">
+
+            </div>
+            <br>
+            <h2 id="ingredient-subtitle"></h2>
+            <h3 id="ingredients-found"></h3>
+            <div id="ingredient-results">
+
+            </div>
+        </main>
+        <script src="search.js"></script>
+    </body>
+</html>
